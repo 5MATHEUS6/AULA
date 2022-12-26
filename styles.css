@@ -1,0 +1,88 @@
+/*PSEUDO ELEMENTOS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+input{
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: #ff1396;
+}
+
+p{
+    color:blue;
+}
+
+p::first-line{
+    color: red;
+
+}
+*/
+/*
+a{
+    color: blue;
+}
+
+a::after {
+    content: "<-";
+}
+
+a::before {
+    content:"->";
+}
+*/
+
+/*PSEUDO CLASSES  
+
+*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.container:empty{
+    background: blue;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* li:last-child{
+    color: brown;
+}
+
+span:first-of-type{
+    color: blueviolet;
+}
+
+p:first-of-type{
+    color: blue;
+}
+
+.container :not(.excluido) {
+    color: chartreuse;
+}
+*/
+
+li:nth-last-child(5){
+    color: chartreuse;
+}
+
